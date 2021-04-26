@@ -1,7 +1,7 @@
 from turtle import Turtle, Screen
 import random
 
-
+# function includes a turtle that draws the racing track
 def draw_track():
     track_turtle = Turtle(shape="turtle")
     track_turtle.pensize(3)
@@ -26,6 +26,7 @@ my_turtles = []
 
 draw_track()
 
+# create 6 turtle objects and add the my_turtles list
 for turtle_index in range(0, 6):
     new_turtle = Turtle(shape="turtle")
     new_turtle.color(colors[turtle_index])
